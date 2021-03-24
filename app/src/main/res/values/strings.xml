@@ -4,8 +4,9 @@
     <string name="preco_gasolina">Preço Gasolina</string>
     <string name="kml_etanol">km/l com Etanol</string>
     <string name="kml_gasolina">km/l com Gasolina</string>
-    <string name="formula">Melhor abastecer com: (km/LE / km/LG) * PG</string>
+    <string name="formula">Melhor abastecer com:</string>
     <string name="melhor_combustivel">Gasolina</string>
     <string name="btnCalcular">Calcular</string>
+    <string name="btnLimpar">Limpar</string>
     <string name="btnSair">Sair</string>
 </resources>
