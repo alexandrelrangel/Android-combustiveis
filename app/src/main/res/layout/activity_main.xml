@@ -37,7 +37,7 @@
         android:textAlignment="textEnd" />
 
     <TextView
-        android:id="@+id/txtKmlEtanol"
+        android:id="@+id/txtRendimentoComEtanol"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/edtPrecoGasolina"
@@ -45,43 +45,50 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edtKmlEtanol"
+        android:id="@+id/edtRendimentoComEtanol"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txtKmlEtanol"
+        android:layout_below="@id/txtRendimentoComEtanol"
         android:textAlignment="textEnd" />
 
     <TextView
-        android:id="@+id/txtKmlGasolina"
+        android:id="@+id/txtRendimentoGasolina"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/edtKmlEtanol"
+        android:layout_below="@id/edtRendimentoComEtanol"
         android:text="@string/kml_gasolina"
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edtKmlGasolina"
+        android:id="@+id/edtRendimentoGasolina"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txtKmlGasolina"
+        android:layout_below="@id/txtRendimentoGasolina"
         android:textAlignment="textEnd" />
 
     <Button
         android:id="@+id/btnCalcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/edtKmlGasolina"
+        android:layout_below="@id/edtRendimentoGasolina"
         android:text="@string/btnCalcular" />
+
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCalcular"
+        android:text="@string/btnLimpar" />
 
     <Button
         android:id="@+id/btnSair"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnCalcular"
+        android:layout_below="@id/btnLimpar"
         android:text="@string/btnSair" />
 
     <TextView
-        android:id="@+id/txtMelhorCombustivel"
+        android:id="@+id/txtMelhorAbastecerCom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnSair"
@@ -90,10 +97,10 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/txtNota1"
+        android:id="@+id/txtMelhorCombustivel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txtMelhorCombustivel"
+        android:layout_below="@id/txtMelhorAbastecerCom"
         android:text="@string/melhor_combustivel"
         android:textStyle="bold"
         android:textAlignment="center"
